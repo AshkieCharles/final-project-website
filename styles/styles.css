@@ -9,9 +9,39 @@
 
 .nav-bar-content {
   background-color: rgb(19, 19, 19);
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-bar-list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+
 }
 
 .nav-bar-list li a {
   color: rgb(168, 238, 16);
-
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 10rem;
 }
+
+.nav-bar-list li {
+  list-style: none;
+}
+
+.logo {
+  color: aliceblue;
+}
+
+.banner-content {
+  max-width: 1500px;
+  background-color: rgb(124, 43, 43);
+  margin: auto;
+  padding: 0rem 5rem;
+}
+
