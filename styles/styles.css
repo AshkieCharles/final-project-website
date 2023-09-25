@@ -1,58 +1,17 @@
-body {
-  line-height: 1.5;
-  font-size: 25px;
-  color: azure;
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sedgwick Ave Display', cursive, Arial, Helvetica, sans-serif;
 }
 
-.main-header{
-  width: 100%;
-  height: 60px;
-  background-color: rgb(250, 250, 250);
-  display: flex;
-  justify-content: left;
+.nav-bar-content {
+  background-color: rgb(19, 19, 19);
 }
 
-.nav-bar-list {
-  display: flex;
-  list-style: none;
-  padding: none;
-  justify-content:left;
-  color: red;
-}
+.nav-bar-list li a {
+  color: rgb(168, 238, 16);
 
-li {
-  padding-right: 10px;
-}
-
-.logo {
-  width: fit-content;
-  height: auto;
-}
-
-.cta-content {
-  z-index: 1;
-  position: relative;
-  max-width: 1200px;
-  padding-bottom: 30cm;
-
-}
-
-a, a:visited {
-  text-decoration: none;
-  color: rgb(38, 138, 45);
-}
-
-a:hover {
-  text-decoration: none;
-  color: aqua;
-}
-
-
-.nav-bar-list {
-  background-color: brown;
-  margin:0;
-  display: inline-flex;
-  width: fit-content;
-  padding: 0%;
 }
