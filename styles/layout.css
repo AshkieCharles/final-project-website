@@ -1,25 +1,29 @@
 
 .nav-bar-list {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: space-evenly;
-
+  flex-wrap: wrap;
 }
 
 .nav-bar-content {
-  background-color: rgb(19, 19, 19);
+  background-color:  rgb(20, 19, 20);
   position: fixed;
   z-index: 5;
   width: 100%;
-  padding: 0;
+  padding: 10px 0;
 }
 
 .nav-bar-list li a {
-  color: rgb(168, 238, 16);
+  color:  hsla(126, 100%, 85%, 1);
   text-decoration: none;
   font-size: 25px;
   font-weight: 300;
-  margin-left: 10rem;
+  
+}
+
+.nav-bar-list li {
+  display: inline-flex;
 }
 
 .nav-bar-list li {
@@ -30,6 +34,28 @@
   max-width: 1500px;
   background-color: rgb(124, 43, 43);
   margin: auto;
-  padding: 0rem 5rem;
+  padding: 0rem 2rem;
 }
 
+.logo {
+  text-align: center;
+}
+
+.banner-image {
+  background-image: url(/images/hari-kari.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.about-banner {
+  padding: 1rem;
+}
+
+.title-about {
+  font-size: 5rem;
+  text-align: center;
+}
