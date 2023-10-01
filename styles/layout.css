@@ -71,3 +71,7 @@ p {
   text-align: center;
 }
 
+a:is(:link, :active, :visited).active {
+  text-decoration: underline 10px;
+  color: hsla(126, 100%, 85%, 1);
+}
