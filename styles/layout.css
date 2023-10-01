@@ -21,6 +21,7 @@ p {
   z-index: 5;
   width: 100%;
   padding: 10px 0;
+  z-index: 1000;
 }
 
 .nav-bar-list li a {
@@ -72,6 +73,19 @@ p {
 }
 
 a:is(:link, :active, :visited).active {
-  text-decoration: underline 10px;
-  color: hsla(126, 100%, 85%, 1);
+  background-color: hsla(126, 100%, 85%, 1);
+  color: black;
 }
+
+footer {
+  text-align: center;
+}
+
+
+.nav-sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+}
+
