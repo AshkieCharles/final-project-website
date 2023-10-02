@@ -54,7 +54,7 @@ p {
 }
 
 .banner-image {
-  background-image: url(/images/hari-kari.png);
+  background-image: url(../images/hari-kari.png);
   height: 100vh;
   background-repeat: no-repeat;
   overflow: hidden;
